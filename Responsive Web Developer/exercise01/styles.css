@@ -70,3 +70,37 @@ footer {
     margin-top: 8rem;
     font-weight: bold;
 }
+
+/* Diseño para pantallas pequeñas */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .picture {
+        margin-left: 2rem;
+    }
+
+    .textNews {
+        margin-right: 2rem;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        margin-right: 2rem;
+    }
+
+    button {
+        width: 150px;
+        height: 48px;
+        left: auto;
+    }
+
+    img {
+        width: 20rem;
+        height: 20rem;
+    }
+}
